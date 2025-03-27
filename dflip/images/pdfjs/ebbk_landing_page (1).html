@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>One Pager</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/sites/TrainingManagement/SiteAssets/ebbk_landing_page_html/assets/css/ebbk_style.css"/>
+
+	<!-- new style --><link rel="stylesheet" href="/sites/TrainingManagement/_catalogs/masterpage/Custom/SourceCode/CSS/ebookpop.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<script src="/sites/TrainingManagement/SiteAssets/ebbk_landing_page_html/assets/bootstrap/js/3.5.1/jquery.min.js"></script>
+	<script src="/sites/TrainingManagement/SiteAssets/ebbk_landing_page_html/assets/bootstrap/js/3.4.1/bootstrap.min.js"></script>
+	<script src="/sites/TrainingManagement/SiteAssets/ebbk_landing_page_html/assets/bootstrap/js/EBook.js"></script>
+	
+	<style>
+	#s4-titlerow{
+	padding-top: 9px !important;
+}
+	#s4-bodyContainer {
+    padding-bottom: 0 !important;
+}
+       #sideNavBox,
+       .ms-breadcrumb-box,
+       .ms-mpSearchBox{
+	    display: none !important;
+		}
+		.csection{
+	    height: 50px;
+    background-image: linear-gradient(to right, #c81920 , black);
+    color: white;
+    text-align: center;
+}
+.csection h2{
+	    font-size: 26px;
+    color: #fff;
+    padding: 5px;
+    margin-top: 0;
+    text-align: left;
+    margin-left: 10px;
+    }
+.ebbkWrap h1{
+	font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+}
+.Detailssection .table tbody tr:hover{
+	    background: #e2f4f4;
+}
+.pr-1{
+	padding-right: 1.5px;
+
+}
+.table>thead>tr>th {
+
+    border-bottom:1px solid #ddd !important;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td
+{
+	border-top: none !important;
+}    
+/* css for popup*/
+.ebookbutton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    background-color: #1c87c9;
+-webkit-border-radius: 60px;
+border-radius: 60px;
+border: none;
+color: #eeeeee;
+cursor: pointer;
+display: inline-block;
+font-family: sans-serif;
+font-size: 16px;
+padding: 6px 10px;
+text-align: center;
+text-decoration: none;
+  }
+  @keyframes glowing {
+    0% {
+background-color: #45765a;
+box-shadow: 0 0 5px #2ba805;
+}
+50% {
+background-color: #45765a;
+box-shadow: 0 0 20px #2ba805;
+}
+100% {
+background-color: #45765a;
+box-shadow: 0 0 5px #2ba805;
+}
+  }
+  .ebookbutton {
+    animation: glowing 1300ms infinite;
+  }
+  a:hover{
+      text-decoration: none;
+      color:#fff;
+  }
+  #ms-designer-ribbon{
+	display:none;
+}
+  </style>
+        </head>
+        <body>
+        <div class="ebbkWrap"><h1>INSPIRE</h1></div>
+        <div class="container-fluid ebbokSection">
+            <div class="row">
+                <div class="col-md-3 pr-1">
+                  <div class="menubarsection">
+                    <ul id="myUL">
+                      <li><span class="caret"><a href="javascript:void(0)"><i class="fa fa-folder" aria-hidden="true"></i>INSPIRE</a></span>
+                        <ul class="nested" id="ebookTree">
+                         
+                                                      
+                         </ul>
+                      </li>
+                    </ul>
+                  </div>
+                    
+                </div>
+                <div class="col-md-9">
+                  <div class="Detailssection"> 
+                  <div class="csection">
+                  <h2>INSPIRE</h2>
+                  </div>
+                   <div class="table-responsive">
+                      <table class="table" id="documentTable">
+                        <thead>
+                          <tr>
+                            <th>
+                              <i class="fa fa-file-o" aria-hidden="true"></i>
+                            </th>
+                            <th>
+                              Name
+                            </th>
+                            <th>
+                              Modified
+                            </th>
+                            <th>Video</th>
+                            <th>Standard</th>
+                            <th>Learning From Incidents</th>
+                            <th>Others</th>
+                            <th>
+                              Modified By
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>                                                                              
+                        </tbody>
+                      </table>
+                   </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+       <!--html for model popup-->
+       <div class="modal" id="myModal">
+    <div class="modal-dialog" style="max-width: 800px;">
+      
+      <div class="modal-content ">
+     <div> 
+      <button type="button" class="close" data-dismiss="modal" style="margin: 2px -8px;color: #128f49;opacity: 1;position: absolute;float: right;width: 100%;text-align: right;">×</button>
+        <img src="/sites/TrainingManagement/SiteAssets/popbachground.jpg" style="width: 100%;">
+        <div  class="centered" style="position: absolute;top: 51%;left: 50%;transform: translate(-50%, -50%);box-shadow: 0 0 5px 2px #dacccc;width: 517px;"> 
+        <!-- Modal Header -->
+        <div class="modal-header" style="padding: 0.5rem 1rem !important; background: #128f49;">
+          <h4 class="modal-title" style="text-align: center;width: 100%;font-size: 3rem;    color: #fff;">INSPIRE</h4>
+          
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" style="text-align: justify;background: #128f49; color:#fff !important;">
+            <div>
+                 <!--<h4 style="color:#fff !important; font-size: 26px !important; ">Dear All,</h4>-->
+                <p style="font-size: 1.5rem;font-weight: 600; "><span>An e-booklet summarizing safety standard requirements is now available </span>
+                  </p>
+            </div>
+
+            
+        </div>
+        
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer" style="padding: .3rem;">
+          <button type="button" class="btn btn-danger" data-dismiss="modal" style="padding: 1px 10px !important">Close</button>
+        </div> -->
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+         
+        
+        <script>
+        var toggler = document.getElementsByClassName("caret");
+        var i;
+        
+        for (i = 0; i < toggler.length; i++) {
+          toggler[i].addEventListener("click", function() {
+            this.parentElement.querySelector(".nested").classList.toggle("active");
+            this.classList.toggle("caret-down");
+          });
+        }
+        /*js for popup*/
+       /* $(document).ready(function(){
+    $("#myModal").modal('show');
+});*/
+        </script>
+        
+        </body>
+        </html>
+        
